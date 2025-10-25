@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "176140749216806alrtgr1",
+      "name": "Alice",
+      "email": "alice@example.com",
+      "createdAt": "2025-10-25T15:51:32.168Z"
+    },
+    {
+      "id": "17614074921724kr32l8o6",
+      "name": "Bob",
+      "email": "bob@example.com",
+      "createdAt": "2025-10-25T15:51:32.172Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "176140749217209meag3xb",
+      "title": "Learn JavaScript",
+      "description": "Study async/await patterns",
+      "category": "Learning",
+      "assignedUserId": "176140749216806alrtgr1",
+      "status": "completed",
+      "createdAt": "2025-10-25T15:51:32.172Z",
+      "updatedAt": "2025-10-25T15:51:32.174Z"
+    },
+    {
+      "id": "1761407492172vst3r22u2",
+      "title": "Build Project",
+      "description": "Create a todo app",
+      "category": "Development",
+      "assignedUserId": "17614074921724kr32l8o6",
+      "status": "pending",
+      "createdAt": "2025-10-25T15:51:32.172Z",
+      "updatedAt": "2025-10-25T15:51:32.174Z"
+    },
+    {
+      "id": "1761407492173ooh15z3oo",
+      "title": "Review Code",
+      "description": "Check for bugs",
+      "category": "Review",
+      "assignedUserId": "17614074921724kr32l8o6",
+      "status": "pending",
+      "createdAt": "2025-10-25T15:51:32.173Z",
+      "updatedAt": "2025-10-25T15:51:32.173Z"
+    }
+  ]
+}
