@@ -14,7 +14,7 @@ public class ToDoListManager {
     // ----- USER OPERATIONS ----
 
     public User addUser(String name, String email) {
-        User user = new User(UUID.randomUUID().toString(), name, email);
+        User user = new User(UUID.randomUUID().toString().substring(0, 5), name, email);
         users.add(user);
         return user;
     }
@@ -35,7 +35,7 @@ public class ToDoListManager {
     // ---- TASK OPERATIONS -----
 
     public Task addTask(String title, String description, String category, String assignedUserId) {
-        Task task = new Task(UUID.randomUUID().toString(), title, description, category, assignedUserId, "pending");
+        Task task = new Task(UUID.randomUUID().toString().substring(0, 5), title, description, category, assignedUserId, "pending");
         tasks.add(task);
         return task;
     }
