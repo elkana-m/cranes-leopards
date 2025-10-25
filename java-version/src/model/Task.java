@@ -54,6 +54,10 @@ public class Task {
         this.updatedAt = LocalDateTime.now();
     }
 
+    public void setUpdatedAt(LocalDateTime updatedAt) {
+    this.updatedAt = updatedAt;
+    }
+
     @Override
     public String toString() {
         return String.format("Task[id=%s, title=%s, category=%s, userId=%s, status=%s]",
